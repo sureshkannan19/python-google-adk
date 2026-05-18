@@ -1,13 +1,11 @@
 import datetime
 from zoneinfo import ZoneInfo
 
-from google.adk import Agent
 from dotenv import load_dotenv
+from google.adk import Agent
 
 load_dotenv()
-
 MODEL = "gemini-2.5-flash"
-
 
 def get_weather(city: str) -> dict:
     """Retrieves the current weather report for a specified city.
