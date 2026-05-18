@@ -5,7 +5,7 @@ from google.adk.tools import google_search
 
 load_dotenv()
 
-MODEL = "gemini-2.5-flash"
+MODEL = "groq/llama-3.1-8b-instant"
 
 # -- Sequential Agent ---
 # Destination Research Agent - Researches location information

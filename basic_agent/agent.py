@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from google.adk import Agent
 
 load_dotenv()
-MODEL = "gemini-2.5-flash"
+MODEL = "groq/llama-3.1-8b-instant"
 
 def get_weather(city: str) -> dict:
     """Retrieves the current weather report for a specified city.
