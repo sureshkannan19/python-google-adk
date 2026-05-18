@@ -12,7 +12,7 @@ MODEL = "groq/llama-3.1-8b-instant"
 destination_research_agent = Agent(
     name="DestinationResearchAgent",
     model=MODEL,
-    tools=[google_search],
+    tools=[google_search], # Google search works only with gemini api keys
     description="An agent that researches travel destinations and gathers essential information",
     instruction="""
     You are a travel researcher. You will be given a destination and travel preferences, and you will research:
